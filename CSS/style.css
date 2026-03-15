@@ -84,12 +84,16 @@ body{
 }
 
 .Calendario{
-    width:40px;
-    height:40px;
-
-    background:var(--marca);
-    border-radius:8px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
+
+.Calendario img{
+    width:24px;
+}
+
 
 .DATA{
     font-size:12px;
