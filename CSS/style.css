@@ -236,6 +236,14 @@ button:hover{
     .Data{
         margin:auto;
     }
+    .formulario{
+        grid-template-columns: 1fr;
+        gap:15px;
+    }
+
+    input, select{
+        font-size:16px;
+    }
 
 }
 
@@ -252,5 +260,17 @@ button:hover{
     .parteFormulario{
         padding:25px;
     }
+
+    @media (max-width:500px){
+
+    .formulario{
+        grid-template-columns: 1fr;
+        gap:15px;
+    }
+
+    input, select{
+        font-size:16px;
+    }
+
 
 }
