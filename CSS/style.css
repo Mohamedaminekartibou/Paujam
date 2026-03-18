@@ -144,6 +144,12 @@ label{
     margin-bottom:6px;
 }
 
+.asterisco {
+    color: var(--resalte);
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(251,191,36,0.6);  
+}
+
 input{
     width:100%;
     padding:12px;
@@ -161,7 +167,7 @@ input:focus{
     box-shadow:0 0 0 2px rgba(124,58,237,0.2);
 }
 
-/* ===== FILA ===== */
+/*  FILA  */
 
 .row{
     display:flex;
@@ -208,7 +214,7 @@ button:hover{
     margin-bottom: 40px;
 }
 
-/* ===== RESPONSIVE (MÓVIL) ===== */
+/*  RESPONSIVE (MÓVIL)  */
 
 @media (max-width:900px){
 
