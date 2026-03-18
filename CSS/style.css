@@ -192,6 +192,14 @@ button:hover{
     transition: 0.2s;
 }
 
+.letraPequeña {
+    color: var(--texto-sec);
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
 /* ===== RESPONSIVE (MÓVIL) ===== */
 
 @media (max-width:900px){
