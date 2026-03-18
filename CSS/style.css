@@ -183,7 +183,14 @@ button:hover{
     background:#6d28d9;
 }
 
-
+.select-horario {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--borde);
+    font-size: 14px;
+    transition: 0.2s;
+}
 
 /* ===== RESPONSIVE (MÓVIL) ===== */
 
