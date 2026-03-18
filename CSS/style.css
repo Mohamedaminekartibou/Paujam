@@ -112,8 +112,8 @@ body{
     border-radius:16px;
 
     box-shadow:0 10px 25px rgba(0,0,0,0.05);
-
-    overscroll-behavior: auto none;
+    
+    overflow-y: auto;
 }
 
 .parteFormulario h2{
@@ -182,6 +182,8 @@ button{
 button:hover{
     background:#6d28d9;
 }
+
+
 
 /* ===== RESPONSIVE (MÓVIL) ===== */
 
