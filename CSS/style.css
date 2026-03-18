@@ -1,16 +1,16 @@
 
 :root{
-    --fondo:#F8FAFC;
-    --tarjeta:#FFFFFF;
+    --fondo:#0F172A;
+    --tarjeta:#1E293B;
 
-    --texto:#1F293B;
-    --texto-sec:#64748B;
+    --texto:#F1F5F9;
+    --texto-sec:#94A3B8;
 
     --marca:#7C3AED;
-    --acento:#06B6D4;
+    --acento:#22D3EE;
     --resalte:#FBBF24;
 
-    --borde:#E2E8F0;
+    --borde:#334155;
 }
 
 
