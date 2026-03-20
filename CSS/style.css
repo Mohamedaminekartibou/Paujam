@@ -147,6 +147,12 @@ label{
     margin-bottom:6px;
 }
 
+.asterisco {
+    color: var(--resalte);
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(251,191,36,0.6);  
+}
+
 input{
     width:100%;
     padding:12px;
@@ -164,7 +170,7 @@ input:focus{
     box-shadow:0 0 0 2px rgba(124,58,237,0.2);
 }
 
-/* ===== FILA ===== */
+/*  FILA  */
 
 .row{
     display:flex;
@@ -211,6 +217,7 @@ button:hover{
     margin-bottom: 40px;
 }
 
+<<<<<<< HEAD
 .confirmacion{
     display:flex;
     flex-direction:column;
@@ -238,6 +245,9 @@ button:hover{
 }
 
 /* ===== RESPONSIVE (MÓVIL) ===== */
+=======
+/*  RESPONSIVE (MÓVIL)  */
+>>>>>>> 73a40d930a38287f0d33ec16c257203c261e7178
 
 @media (max-width:900px){
 
@@ -259,6 +269,14 @@ button:hover{
     .Data{
         margin:auto;
     }
+    .formulario{
+        grid-template-columns: 1fr;
+        gap:15px;
+    }
+
+    input, select{
+        font-size:16px;
+    }
 
 }
 
@@ -275,5 +293,17 @@ button:hover{
     .parteFormulario{
         padding:25px;
     }
+
+    @media (max-width:500px){
+
+    .formulario{
+        grid-template-columns: 1fr;
+        gap:15px;
+    }
+
+    input, select{
+        font-size:16px;
+    }
+
 
 }
