@@ -12,6 +12,8 @@
     --resalte:#FBBF24;
 
     --borde:#334155;
+
+    --confirmacion:#21ad80;
 }
 
 
@@ -120,6 +122,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap:20px;
+    display: none;
 }
 
 .parteFormulario h2{
@@ -206,6 +209,32 @@ button:hover{
     line-height: 1.6;
     margin-top: 5px;
     margin-bottom: 40px;
+}
+
+.confirmacion{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgba(81, 186, 151, 0.1);
+
+}
+
+.imagen-confirmacion{
+    width:200px;
+}
+
+.titulo-confirmacion{
+    font-size:24px;
+    color:var(--confirmacion)
+}
+
+.confirma{
+    color:var(--confirmacion);
+    text-align:center;
+    max-width:400px;
 }
 
 /* ===== RESPONSIVE (MÓVIL) ===== */
